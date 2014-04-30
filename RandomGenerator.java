@@ -26,7 +26,7 @@ public class RandomGenerator
 		}
 		while (rolls>0);
 		
-		num1 = num1/rolls;
+		num1 = num1/Bounces;
 		return num1;
 	}
 	public RandomGenerator(int Bounces)
